@@ -1,65 +1,76 @@
-# Vehicle-management-system-using-singly-linked-list-assignment-unit-3-
-A C++ Vehicle Management System built using a singly linked list. Each vehicle is a node storing ID, brand, model and price, with a pointer to the next node. It supports adding, deleting, searching, updating and displaying vehicle records dynamically at runtime, without a fixed size, demonstrating core linked list operations.
+# project overview:-
+1)project Title: Vehicle Management System Using Singly Linked List
 
-#Vehicle Management System
+2)Programming Language: C++
 
-#Overview:
-This project is a simple Vehicle Management System developed in C++ using a Singly Linked List. It allows users to manage vehicle records through a menu-driven interface. The system supports basic operations such as inserting, deleting, searching, and displaying vehicle details.
+3)Data Structure: Singly Linked List
 
-#Features:
-Add new vehicle records
-Delete vehicles using Vehicle ID
-Search vehicles by Vehicle ID
-Display all stored vehicles
-Dynamic memory management using linked lists
-Menu-driven console interface
+4)Overview:
+The Vehicle Management System is a menu-driven C++ application that manages vehicle records using a singly linked list. Each record contains the vehicle number, vehicle name, and vehicle price.
 
-#Data Structure Used:-
-Singly Linked List
-Each node contains:
+# Features
+- Insert vehicle records
+- Display all vehicles
+- Search vehicles by registration number
+- Delete vehicle records
+- Menu-driven interface
 
-Vehicle ID
-Vehicle Number
-Vehicle Name
-Vehicle Type
-Pointer to the next node
+# Technologies Used
+- Programming Language: C++
+- Data Structure: Singly Linked List
+- Concepts: Structures, pointers, dynamic memory allocation, functions, and linked list traversal
+- 
+# How to Run
+1. Download or clone the repository.
+2. Open the ".cpp" file in a C++ compiler.
+3. Compile and execute the program.
+4. Select the required operation from the menu.
 
-#Technologies Used:
-C++
-Singly Linked List
-Pointers
-Dynamic Memory Allocation
-Console-Based Programming
+# Problem Statement
+Develop a Vehicle Management System using a singly linked list in C++. Each vehicle record should contain the vehicle number, vehicle name, and vehicle price. The system should perform the following operations:
+1.Insert a new vehicle record.
+2.Display all vehicle records.
+3.Search for a vehicle using its vehicle number.
+4.Delete a vehicle record using its vehicle number.
+5.Exit the program.
 
-#Operations:
-1)Insert Vehicle
-Adds a new vehicle record to the management system.
+The program should be menu-driven, properly tested, and executed without errors.
 
-2)Delete Vehicle
-Removes a vehicle record based on the entered Vehicle ID.
+# Algorithm
+1.Start the program.
+2.Define a node containing vehicle details and a pointer to the next node.
+3.Initialize the head pointer to NULL.
+4.Display the menu of operations.
+5.Accept the user's choice.
+6.Perform the selected operation:
+  Insert: Create a new node and add the vehicle record.
+  Display: Traverse the linked list and print all vehicle records.
+  Search: Find a vehicle using its vehicle number.
+ Delete: Remove the vehicle node matching the given vehicle number.
+ Exit: Terminate the program.
+7.Repeat the menu until the user chooses Exit.
+8.Stop.
 
-3)Search Vehicle
-Searches for a vehicle and displays its details using the Vehicle ID.
+# Time Complexity
+Operation        Time complexity
+Insert at end      0(n)
+Display vehicles   0(n)
+Search vehicle     0(n)
+Delete vehicle.    0(n)
+Here,  represents the number of vehicles in the linked list.
 
-4)Display Vehicles
-Displays all vehicle records currently stored in the system.
+# Advantages
+• Dynamic memory allocation.
+• Easy insertion and deletion of vehicle records.
+• No fixed size is required.
+• Demonstrates practical use of linked lists.
+• Suitable for a menu-driven DSA assignment.
 
-5)Exit
-Terminates the application.
+# Sample Output
+Vehicle added successfully!
+Vehicle found!
+Vehicle deleted successfully!
+Program exited successfully.
 
-#Learning Outcomes:
-Understanding singly linked list implementation
-Learning dynamic memory allocation using pointers
-Performing insertion, deletion, searching, and traversal operations
-Managing vehicle records using a linked list
-Developing menu-driven applications in C++ 
-
-Sample Menu
-===== Vehicle Management System =====
-1. Insert Vehicle
-2. Delete Vehicle
-3. Search Vehicle
-4. Display Vehicles
-5. Exit
-
-Enter your choice:
+# Conclusion
+This project demonstrates the implementation of a singly linked list in C++ for storing and managing vehicle records. It provides practical experience with pointers, dynamic memory allocation, insertion, deletion, searching, and traversal.
